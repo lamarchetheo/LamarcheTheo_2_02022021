@@ -5,14 +5,14 @@
 body
 {
 	font-family: 'Roboto' , sans-serif;
-	/*background-color: #DEEBFF;*/
+	background-color: #f1f1f1;
 }
 
 h1
 {
-	font-size: 1.2em; /*taille de police*/
+	font-size: 2em; /*taille de police*/
 	font-weight: bold; /*gras*/
-	margin: 0.5em;
+	margin: 0.67em 0;
 	color: rgb(102,153,255);
 }
 
@@ -53,6 +53,11 @@ a
 	color: black;
 }
 
+
+#hébergement
+{
+
+}
 
 /***************************************************/
 /*HEADER*/

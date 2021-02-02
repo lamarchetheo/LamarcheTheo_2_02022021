@@ -14,6 +14,8 @@
 <body>
 	<div id="bloc_page_index">
 
+<!--HEADER-->
+
 		<header>
 			<div id="debut">
 				<h1><img src="Projet 2 - Reservia\images\logo\Reservia.svg" alt="logo reservia"></h1>
@@ -32,12 +34,23 @@
 
 	  <section>
 	    <article>
+			  <div class="box_search_1">
+            <div class="marker"><i class="fas fa-map-marker-alt"></i></div>           
+            <div class="table">
+	           	<form method="post" action="traitement.php">
+	               <input class="search" type="text" name="ville_pays" placeholder="Marseille, France"/>
+	               <input class="button_search" type="submit" value="Rechercher" />
+	           	</form>
+	         	</div>
+	      </div>
 	    	<div id="filtres">
 		      <h1>filtres</h1>
-		      	<p><i class="fas fa-money-bill-wave"></i>économique <i class="fas fa-child"></i>familial <i class="fas fa-heart"></i>romantique <i class="fas fa-dog"></i>animaux autorisés<br><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+		      	<p><i class="fas fa-money-bill-wave"></i> économique <i class="fas fa-child"></i> familial <i class="fas fa-heart"></i> romantique <i class="fas fa-dog"></i> animaux autorisés<br><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 	   		</div>
 	    </article>
 	  </section>
+
+<!--HEBERGEMENT-->
 
 	  <section>
 	    <article>
@@ -45,23 +58,32 @@
 		      <h1>hébergements</h1>
 		      <h2>hébergements à Marseille</h2>
 		      	<p>ajouter des photo des hébergements à Marseille</p>
+		      <div class="heberger">
 		      <h3>Auberge la Cannebière</h3>
 		      	<p>Nuit à partir de 25€</p>
+
 		      <h3>Hôtel de la mer</h3>
 		      	<p>Nuit à partir de 46€</p>
+
 		      <h3>Hôtel du port</h3>
 		      	<p>Nuit à partir de 52€</p>
+
 		      <h3>Auberge Le Palmier</h3>
 		      	<p>Nuit à partir de 23€</p>
+
 		      <h3>Hôtel Les mouettes</h3>
 		      	<p>Nuit à partir de 76€</p>
+
 		      <h3>Hôtel chez Amina</h3>
 		      	<p>Nuit à partir de 93€</p>
+
 		      <h2>"Afficher plus" en lien cliquable</h2>
 		      	<p>pas oublier les zones et les couleurs et surtout la police populaires</p>
 	   		</div>
 	    </article>
 	  </section>
+
+<!--POPULAIRE-->
 
 	  <section>
 	    <article>
@@ -78,6 +100,8 @@
 	    	</div>
 	    </article>
 		</section>
+
+<!--ACTIVITER-->
 
 	  <section>
 	    <article>
@@ -97,24 +121,26 @@
 		    		<p>Photo du parc Longchamp sous Notre Dame</p>
 	   		</div>
 	    </article>
-	  </section>	  		
-					<footer>
-						<div id="flex_footer">
-						<div class="Apropos">
-							<h2>A propos</h2>
-								<p><a>Fonctionnement du site</a><br><a>Conditions générales de ventes</a><br><a>Données et confidentialité</a></p>
-						</div>
-						<div class="hebergement">
-				  		<h2>Nos hébergements</h2>
-				  			<p><a>Charte qualité</a><br><a>Soumettre votre hôtel</a></p>
-				  	</div>
-				  	<div class="assistance">
-				  		<h2>Assistance</h2>
-				  			<p><a>Centre d'aide</a><br><a>Nous contacter</a></p>
-				  	</div>
-				  </div>
-					</footer>
-		
+	  </section>
+
+<!--FOOTER-->
+
+		<footer>
+			<div id="flex_footer">
+				<div class="Apropos">
+					<h2>A propos</h2>
+						<p><a>Fonctionnement du site</a><br><a>Conditions générales de ventes</a><br><a>Données et confidentialité</a></p>
+				</div>
+				<div class="hebergement">
+		  		<h2>Nos hébergements</h2>
+		  			<p><a>Charte qualité</a><br><a>Soumettre votre hôtel</a></p>
+		  	</div>
+		  	<div class="assistance">
+		  		<h2>Assistance</h2>
+		  			<p><a>Centre d'aide</a><br><a>Nous contacter</a></p>
+		  	</div>
+		  </div>
+		</footer>
 	</div>
 </body>
 </html>
