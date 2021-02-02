@@ -1,0 +1,102 @@
+/***************************************************/
+/*UNIVERSEL*/
+/***************************************************/
+
+body
+{
+	font-family: 'Roboto' , sans-serif;
+	/*background-color: #DEEBFF;*/
+}
+
+h1
+{
+	font-size: 1.2em; /*taille de police*/
+	font-weight: bold; /*gras*/
+	margin: 0.5em;
+	color: rgb(102,153,255);
+}
+
+h2
+{
+	font-size: 1em;
+	opacity: 0.8;
+	margin: 0.5em;
+}
+
+p
+{
+	font-size: 0.8em;
+	margin: 0.5em;
+}
+
+ul
+{
+	font-size: 0.8em;
+}
+
+a:hover /*passage souris*/
+{
+	color: green;
+}
+
+section
+{
+	border: 0.05em blue solid;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: #F2F2F2;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+/***************************************************/
+/*HEADER*/
+/***************************************************/
+
+header h1
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: blue;
+}
+
+nav ul
+{
+	border: 0.05em blue solid;
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 2em;
+}
+
+/***************************************************/
+/*Footer*/
+/***************************************************/
+
+footer
+{
+	border: 0.05em blue solid;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: #F2F2F2;
+}
+
+
+/***************************************************/
+/*Flexbox*/
+/***************************************************/
+
+#flex_footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
