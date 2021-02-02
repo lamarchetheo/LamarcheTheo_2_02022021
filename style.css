@@ -5,7 +5,7 @@
 body
 {
 	font-family: 'Roboto' , sans-serif;
-	background-color: #f1f1f1;
+	background-color: #ffffff;
 }
 
 h1
@@ -53,11 +53,56 @@ a
 	color: black;
 }
 
-
-#hébergement
+.fa-star
 {
-
+	color: #DEEBFF;
+	cursor: pointer;
+	padding: 0.0625rem;
 }
+
+.checked
+{
+	color: #0065FC;
+}
+
+/*		.star_1
+		{
+
+		}
+		.star_2
+		{
+
+		}
+		.star_3
+		{
+
+		}
+		.star_4
+		{
+
+		}
+		.star_5
+		{
+
+		}
+		.star_6
+		{
+
+		}
+		.star_7
+		{
+
+		}
+		.star_8
+		{
+
+		}
+		.star_9
+		{
+
+		}
+*/
+
 
 /***************************************************/
 /*HEADER*/
