@@ -11,43 +11,53 @@
 
 	<meta name="viewport" content="initial-scale=1" width="device-width" />
 
-	<title>Reservia</title>
-</head>
-
-<body>
-	<div id="bloc_page_index">
 
 <!--										HEADER 										-->
 
+	<title>Reservia</title>
+</head>
+<body>
+	<div id="bloc_page_index">
 		<header>
 			<div id="debut">
-				<nav>
-			  	<ul>
-			      <li><a href="#hébergement">hébergements</a></li>
-			     	<li><a href="#activité">activité</a></li>
-			     	<li><a href="#" class="inscrire">S'inscrire</a></li>
-<!--<li><a href="#filtres">filtres</a></li>-->
-<!--<li><a href="#populaires">populaires</a></li>-->
-			  	</ul>
-			  </nav>
-			  <h1><img src="images/logo/Reservia.svg" alt="logo reservia"></h1>
+			  <div class="logo">
+			  	<img src="images/logo/Reservia.svg" alt="logo reservia">
+			  </div>
+			    <div class="menu" id="barre"><a href="#hébergement">Hébergements</a></div>
+			    <div class="menu"><a href="#activité">Activité</a></div>
+			    <div class="menu"><a href="#" class="inscrire">S'inscrire</a></div>
 			</div>
 		</header>
 
 	  <section>
 	    <article>
-	    	<h2><strong>Trouvez votre hébergement pour des vacances de rêve</strong><h2><br />
-					<p>en pleins centre ville ou en pleine nature</p>
-			  <div class="box_search_1">
-            <div class="marker"><i class="fas fa-map-marker-alt"></i></div>           
-            <div class="table">
-	           	<form method="post" action="traitement.php">
-	               <input class="search" type="text" name="ville_pays" placeholder="Marseille, France"/>
-	               <input class="button_search" type="submit" value="Rechercher" />
-	           	</form>
-	         	</div>
-	      </div>
+	    	<div class="navig">
+	    		<div>
+		    		<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+		    	</div>
+		    	<div>
+		    		<p>en pleins centre ville ou en pleine nature</p>
+		    	</div>
+				  <div id="box_search_1">
 
+
+				  	        <div class="marker"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="search">Marseille, France</div>
+                    <div class="button_search"><strong>Rechercher</strong> </div>
+
+
+<!-- SI BOUTON UTILISABLE UTILISER LA SUITE
+	            <div class="marker"><i class="fas fa-map-marker-alt"></i></div>           
+	            <div class="table">
+		           	<form method="post" action="traitement.php">
+		               <input class="search" type="text" name="ville_pays" placeholder="Marseille, France"/>
+		               <input class="button_search" type="submit" value="Rechercher" />
+		           	</form>
+		         	</div>-->
+
+		         	
+		      </div>
+		    </div>
 
 	    	<div id="filtres">
 		      <h1>filtres</h1>
@@ -181,46 +191,51 @@
 	      	<div><h1>les plus populaires <i class="fas fa-chart-line" id="logo_popular"></i></h1></div>
 	      		<p>photos plus perser a ddl les petits logo<br />
 	      			positionner cette zone a coter d'hébergement</p>
+	      	<div class="container">
 
-					<a href="#">
-					<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="matin"/>							     	
-	      	<h3>Hôtel Le soleil du matin</h3>
-	      		<p>Nuit à partir de 128€</p>
-	      			<div class="stars_7">
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      		</div>
-		      </a>
-
-					<a href="#">
-					<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="eau"/>									      		
-	      	<h3>Au coeur de l'eau Chambres d'hôtes</h3>
-	      		<p>Nuit à partir de 71€</p>
-	      			<div class="stars_8">
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star"></i>
-		      		</div>
-		      </a>
-
-					<a href="#">
-					<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="blanc"/>									      		
-	      	<h3>Hôtel Tout bleu et Blanc</h3>
-	      		<p>Nuit à partir de 68€</p>
-	      			<div class="stars_9">
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star checked"></i>
-		      			<i class="fas fa-star"></i>
-		      		</div>
-		      </a>		
-
+	      		<div class="box_image">
+							<a href="#">
+							<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="matin"/>	     	
+			      	<h3>Hôtel Le soleil du matin</h3>
+			      		<p>Nuit à partir de 128€</p>
+			      			<div class="stars_7">
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      		</div>
+				      </a>
+		    		</div>
+		    		<div class="box_image">
+							<a href="#">
+							<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="eau"/>				      		
+			      	<h3>Au coeur de l'eau Chambres d'hôtes</h3>
+			      		<p>Nuit à partir de 71€</p>
+			      			<div class="stars_8">
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star"></i>
+				      		</div>
+				      </a>
+				    </div>
+				    <div class="box_image">
+							<a href="#">
+							<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="blanc"/>	      		
+			      	<h3>Hôtel Tout bleu et Blanc</h3>
+			      		<p>Nuit à partir de 68€</p>
+			      			<div class="stars_9">
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star checked"></i>
+				      			<i class="fas fa-star"></i>
+				      		</div>
+				      </a>
+				    </div>		
+					</div>
 	    	</div>
 	    </article>
 		</section>
