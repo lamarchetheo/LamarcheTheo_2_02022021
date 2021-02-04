@@ -23,6 +23,11 @@ h2
 	margin: 0.5em;
 }
 
+h3
+{
+	
+}
+
 p
 {
 	font-size: 0.8em;
@@ -90,13 +95,35 @@ a
 
 
 
+.container
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
 .box_image
 {
-	border: 0.1em purple solid;
+	background-color: white;
+	border-radius: 1em;
+	border: 0.1em white solid;
+	width: 15em;	/*largeur*/
+	height:15em;	/*hauteur*/
 	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	align-items: stretch;
+
+}
+
+img
+{
+	width: 6.375em;
+	height:6.375em;
+	padding: 0.05em;	/*marge interieur*/
+	margin-top: 0.5em;	/*marge exterieur vers interieur*/
+	object-fit: cover;
+
 }
 
 
