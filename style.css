@@ -34,6 +34,17 @@ ul
 	font-size: 0.8em;
 }
 
+button
+{
+	border: 0.15em gray solid;
+    line-height: 2.5;
+    padding: 0 1.25px;
+    font-size: 1rem;
+    text-align: center;
+    color: #0065FC;
+    border-radius: 3em;
+}
+
 a:hover /*passage souris*/
 {
 	color: green;
@@ -65,61 +76,49 @@ a
 	color: #0065FC;
 }
 
-/*		.star_1
-		{
 
-		}
-		.star_2
-		{
+@media all and (max-device-width: 30em) {}
 
-		}
-		.star_3
-		{
 
-		}
-		.star_4
-		{
+#filtres nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	
+}
 
-		}
-		.star_5
-		{
 
-		}
-		.star_6
-		{
 
-		}
-		.star_7
-		{
+.box_image
+{
+	border: 0.1em purple solid;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
 
-		}
-		.star_8
-		{
-
-		}
-		.star_9
-		{
-
-		}
-*/
 
 
 /***************************************************/
 /*HEADER*/
 /***************************************************/
 
-header h1
+.inscrire
 {
-	font-size: 1.5em;
-	font-weight: bold;
-	color: blue;
+	/*font-size: 1.5em;
+	font-weight: bold;*/
+	color:  #0065FC;
 }
 
-nav ul
+header nav ul
 {
-	border: 0.05em blue solid;
+	border-top: silver;
 	list-style-type: none;
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 nav li
