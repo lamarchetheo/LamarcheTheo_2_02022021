@@ -193,7 +193,10 @@ a
 }
 
 
-
+.fas
+{
+	color: #0065FC;
+}
 
 
 .filtres2
@@ -207,8 +210,14 @@ a
 	margin-bottom:0.9375em;
 	text-align: center;
 	font-weight: bold;
+}
 
-
+.titre_filtre
+{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-left: 0.625em;
 }
 
 .filtre
@@ -243,10 +252,25 @@ a
     
 }
 
+.nouvelles
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 
+#i_info
+{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0.5em;
 
+}
 
-
+.info
+{
+	margin-left: 0.01em;
+}
 
 
 .container
