@@ -283,18 +283,26 @@ a
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 0.01em;
+	padding: auto;
+	align-items: stretch;
 }
 
-
+.heberger
+{
+    flex: 0.5em;
+    background-color: #f1f1f1;
+    padding: 1.25em;
+    margin-right: 0.1em;
+    border-radius: 1.25em;	
+}
 
 .box_image
 {
-	margin: 1.375em 
+	margin: 1.375em; 
 	background-color: white;
 	border-radius: 0.9375em;
 	padding: 0.5em;
-	box-shadow: 0em 0em 0.9375em rgba(0, 0, 0, 0.5)
+	box-shadow: 0em 0em 0.9375em rgba(0, 0, 0, 0.5);
 }
 
 .box_image img
@@ -304,18 +312,22 @@ a
 	padding: 0.05em;	/*marge interieur*/
 	margin-top: 0.5em;	/*marge exterieur vers interieur*/
 	object-fit: cover;
-
 }
 
 .gallerie_1
 {
 	display: flex;
     padding: 0.01em;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .gallerie_2
 {
 	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
 }
 
 .activit
@@ -357,6 +369,11 @@ a
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
     margin: 1.1875em;
+}
+
+.cadre
+{
+	border-radius: 0.9375em;
 }
 
 .cadre_1
