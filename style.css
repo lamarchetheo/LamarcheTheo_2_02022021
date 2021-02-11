@@ -284,7 +284,7 @@ a
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: auto;
-	align-items: stretch;
+	align-content: stretch;
 }
 
 .heberger
@@ -318,14 +318,15 @@ a
 {
 	display: flex;
     padding: 0.01em;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
 }
 
 .gallerie_2
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 
 }
@@ -336,6 +337,7 @@ a
 	flex-direction: row;
 	margin: 0.6em;
 	flex-wrap: wrap;
+	align-items: stretch;
 }
 
 .acti_1
@@ -391,6 +393,44 @@ a
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;
 }
+
+.populr
+{
+    flex: 0.5em;
+    background-color: #f1f1f1;
+    padding: 1.25em;
+    margin-left: 0.1em;
+    border-radius: 1.25em;
+}
+
+
+.placement_2
+{
+	background-color: white;
+}
+
+
+.placement
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
+}
+
+
+
+
+/*.box_image_2
+{
+	margin: 1.375em; 
+	background-color: white;
+	border-radius: 0.9375em;
+	padding: 0.5em;
+	box-shadow: 0em 0em 0.9375em rgba(0, 0, 0, 0.5);
+}*/
+
+
 /***************************************************/
 /*Footer*/
 /***************************************************/
