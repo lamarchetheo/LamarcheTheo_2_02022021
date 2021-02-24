@@ -42,19 +42,20 @@
 
 /*si menu en nav avec point*/
 
-/*header nav ul
+header nav ul
 {
 	border-top: silver;
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	list-style: none;
 }
 
 nav li
 {
 	margin-right: 2em;
-}*/
+}
 
 
 /***************************************************/
@@ -478,3 +479,33 @@ footer
 	align-items: stretch;
 	flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*				NOTES
+
+
+
+
+
+
+passer en now wrap
+
+contenaire parent pour heb et pop
+
+
+
+
+
+
+
+*/
