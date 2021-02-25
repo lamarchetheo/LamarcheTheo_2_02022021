@@ -29,6 +29,14 @@
 	color: #0065FC;
 }
 
+#barre_2
+{
+	display: inline-block;
+	line-height: 3.75em;
+	border-top: 0.3125em solid white;
+	background-color: white;
+}
+
 .inscrire
 {
 	color:  #0065FC;
@@ -37,6 +45,7 @@
 .logo
 {
 	flex-grow: 5;
+	justify-content: flex-start;
 }
 
 
