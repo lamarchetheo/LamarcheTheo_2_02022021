@@ -285,18 +285,6 @@ a
 	margin-left: 0.01em;
 }
 
-
-.container
-{
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	padding: 0.01em;
-	align-content: stretch;
-}
-
 .heberger
 {
     flex: 0.5em;
@@ -415,10 +403,22 @@ a
 }
 
 
+.placement_1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0.01em;
+	align-content: stretch;
+}
+
+
 .placement_2
 {
 	background-color: white;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 
@@ -430,7 +430,50 @@ a
 	/*flex-wrap: wrap;*/
 }
 
-.populaire3
+
+.container
+{
+
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0.01em;
+	align-content: stretch;
+}
+
+
+.populaire_1
+{
+    width: 23.75em;
+    height: 11.25em;
+    object-fit: cover;
+    background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    border: 0.3125em solid rgb(255, 255, 255);
+    padding: 1.25em;
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
+    border-radius: 0.9375em;
+    background-color: white;
+}
+
+
+.populaire_2
+{
+    width: 23.75em;
+    height: 11.25em;
+    object-fit: cover;
+    background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    border: 0.3125em solid rgb(255, 255, 255);
+    padding: 1.25em;
+    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
+    border-radius: 0.9375em;
+    background-color: white;
+}
+
+.populaire_3
 {
     width: 23.75em;
     height: 11.25em;
@@ -505,14 +548,7 @@ footer
 
 
 
-
-
-passer en now wrap
-
 contenaire parent pour heb et pop
-
-
-
 
 
 
