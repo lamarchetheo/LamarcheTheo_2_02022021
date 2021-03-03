@@ -75,6 +75,7 @@ body
 {
 	font-family: 'Roboto' , sans-serif;
 	background-color: #ffffff;
+	margin: 2em;
 }
 
 /*h1
@@ -346,7 +347,6 @@ a
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    border-radius: 0.9375em ;
     margin: 0.3125em;
 }
 
@@ -368,7 +368,6 @@ a
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    border-radius: 0.9375em;
     margin: 1.1875em;
 }
 
@@ -402,6 +401,14 @@ a
     border-radius: 1.25em;
 }
 
+.placement
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
 
 .placement_1
 {
@@ -419,19 +426,13 @@ a
 	background-color: white;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 0.01em;
+	align-content: stretch;
+	flex-direction: row;
 }
 
 
-.placement
-{
-	display: flex;
-	justify-content: space-around;
-	align-items: stretch;
-	/*flex-wrap: wrap;*/
-}
-
-
-.container
+/*.container
 {
 
 	flex-direction: column;
@@ -439,7 +440,7 @@ a
 	flex-wrap: wrap;
 	padding: 0.01em;
 	align-content: stretch;
-}
+}*/
 
 
 .populaire_1
@@ -454,6 +455,7 @@ a
     padding: 1.25em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
+    margin-bottom: 1em;
     background-color: white;
 }
 
@@ -470,6 +472,7 @@ a
     padding: 1.25em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
+    margin-bottom: 1em;
     background-color: white;
 }
 
