@@ -75,7 +75,7 @@ body
 {
 	font-family: 'Roboto' , sans-serif;
 	background-color: #ffffff;
-	margin: 2em;
+	/*margin: 2em;*/
 }
 
 /*h1
@@ -394,7 +394,6 @@ a
 
 .populr
 {
-    flex: 0.5em;
     background-color: #f1f1f1;
     padding: 1.25em;
     margin-left: 0.1em;
@@ -426,9 +425,10 @@ a
 	background-color: white;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 0.01em;
 	align-content: stretch;
 	flex-direction: row;
+	display: flex;
+	height: 100%;
 }
 
 
@@ -550,9 +550,12 @@ footer
 
 
 
+	regler la nav et logo sur la meme ligne
+	regler activite a marseilles allignement
+	margin sur les filtres ect
 
-contenaire parent pour heb et pop
-
+	bouton de recherche navigation retirer hauteur et fixer largeur
+	finir les images du popu
 
 
 
