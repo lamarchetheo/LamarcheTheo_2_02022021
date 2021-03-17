@@ -67,7 +67,7 @@ header nav ul
 	flex-direction: row;
 	justify-content: flex-end;
 	list-style: none;
-	padding: 1.25em;
+	/*padding: 1.25em;*/
 }
 
 nav li
@@ -84,7 +84,7 @@ body
 {
 	font-family: 'Roboto' , sans-serif;
 	background-color: #ffffff;
-	/*margin: 2em;*/
+	margin: 0em 0em 0em 2em;
 }
 
 /*h1
@@ -95,12 +95,10 @@ body
 	color: rgb(102,153,255);
 }*/
 
-/*h2
+h2
 {
-	font-size: 1em;
-	opacity: 0.8;
-	margin: 0.5em;
-}*/
+	margin: 0em;
+}
 
 /*p
 {
@@ -348,7 +346,7 @@ a
 .acti_1
 {
 	width: 23.75em;
-    height: 40.5em;
+    height: 40em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -369,11 +367,11 @@ a
 .acti_2
 {
     width: 23.75em;
-    height: 18.625em;
+    height: 20em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    margin: 1.1875em;
+    margin: 0.3em 1.1875em 1.1875em 1.1875em;
 }
 
 /*modification dans les acrivite si retirer revoir le html*/
@@ -382,13 +380,11 @@ a
 .acti_3
 {
     width: 23.75em;
-    height: 18.625em;
+    height: 18em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    margin-top: 0.4em;
-    margin-left: 1.1875em;
-    margin-bottom: 1.1875em;
+    margin: 1.1875em 1.1875em 1.1875em 1.1875em;
 }
 
 .cadre
@@ -466,7 +462,6 @@ a
 .populaire_1
 {
     width: 23.75em;
-    height: 11.25em;
     object-fit: cover;
     background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
     background-repeat: no-repeat;
@@ -483,7 +478,7 @@ a
 .populaire_2
 {
     width: 23.75em;
-    height: 11.25em;
+
     object-fit: cover;
     background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
     background-repeat: no-repeat;
@@ -499,7 +494,6 @@ a
 .populaire_3
 {
     width: 23.75em;
-    height: 11.25em;
     object-fit: cover;
     background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
     background-repeat: no-repeat;
