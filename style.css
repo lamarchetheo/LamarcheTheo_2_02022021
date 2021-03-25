@@ -82,7 +82,7 @@ nav li
 
 body
 {
-	font-family: 'Roboto' , sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #ffffff;
 	margin: 0em 0em 0em 2em;
 }
@@ -110,7 +110,7 @@ h2
 {
 	display: flex;
 	flex-direction: column;
-	margin: 0.02em 0.02em 0.02em 1.5625em; 
+	margin: 0.02em 0.02em 0.02em 0em; 
 }
 
 #box_search_1
@@ -220,10 +220,8 @@ a
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-left: 1.5625em;
+	margin: 0.9375em 0em 0.9375em 0em;
 	width: 50%;
-	margin-top:0.9375em;
-	margin-bottom:0.9375em;
 	text-align: center;
 	font-weight: bold;
 }
@@ -374,7 +372,7 @@ a
     margin: 0.3em 1.1875em 1.1875em 1.1875em;
 }
 
-/*modification dans les acrivite si retirer revoir le html*/
+/*modification dans les activite si retirer revoir le html*/
 
 
 .acti_3
@@ -420,6 +418,7 @@ a
 {
 	display: flex;
 	justify-content: space-around;
+/*modifier pour le faire en responsive*/
 	align-items: stretch;
 	flex-wrap: wrap;
 }
