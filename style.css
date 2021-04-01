@@ -413,7 +413,7 @@ a
 .cadre_1
 {
     width: 23.75em;
-    height: 37.5em;
+    height: 37em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;	
 }
@@ -421,11 +421,18 @@ a
 .cadre_2
 {
 	width: 23.75em;
-    height: 13em;
+    height: 17em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;
 }
 
+.cadre_3
+{
+	width: 23.75em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 0.9375em 0.9375em 0em 0em;
+}
 .populr
 {
     background-color: #f1f1f1;
@@ -435,9 +442,29 @@ a
     justify-content: space-between;
 }
 
+.populr_1
+{
+    padding: 1.25em;
+    margin-left: 0.1em;
+    border-radius: 1.25em;
+    /*justify-content: space-between;*/
+}
 
-populr2
-populr3 a faire
+.populr_2
+{
+    padding: 1.25em;
+    margin-left: 0.1em;
+    border-radius: 1.25em;
+    /*justify-content: space-between;*/
+}
+
+.populr_3
+{
+    padding: 1.25em;
+    margin-left: 0.1em;
+    border-radius: 1.25em;
+    /*justify-content: space-between;*/
+}
 
 
 
