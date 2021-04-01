@@ -197,8 +197,6 @@ a
 	border-radius: 0.9375em;
 }
 
-@media all and (max-device-width: 30em) {}
-
 
 #filtres nav ul
 {
@@ -331,14 +329,30 @@ a
 
 }
 
+
+@media (max-width: 450px) 
+{
+		.activit
+	{
+		display: flex;
+		flex-direction: row;
+		margin: 0.6em;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+
+}
+
+
 .activit
 {
 	display: flex;
 	flex-direction: row;
 	margin: 0.6em;
-	flex-wrap: wrap;
-	align-items: stretch;
-	justify-content: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
 }
 
 .acti_1
@@ -348,18 +362,24 @@ a
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    margin: 0.3125em;
+    /*margin: 0.3125em;*/
 }
 
 .nom
 {
 	margin:0.625em 0em 0.625em 0.9375em;
+	justify-content: space-between;
 }
 
 .double_act
 {
 	display: flex;
 	flex-direction: column;
+	height: 40em; 
+	width: 23.75em;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
 }
 
 .acti_2
@@ -369,7 +389,7 @@ a
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    margin: 0.3em 1.1875em 1.1875em 1.1875em;
+    /*margin: 0.3em 1.1875em 1.1875em 1.1875em;*/
 }
 
 /*modification dans les activite si retirer revoir le html*/
@@ -382,7 +402,7 @@ a
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-    margin: 1.1875em 1.1875em 1.1875em 1.1875em;
+   /* margin: 1.1875em 1.1875em 1.1875em 1.1875em;*/
 }
 
 .cadre
@@ -401,7 +421,7 @@ a
 .cadre_2
 {
 	width: 23.75em;
-    height: 15.625em;
+    height: 13em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;
 }
@@ -412,15 +432,22 @@ a
     padding: 1.25em;
     margin-left: 0.1em;
     border-radius: 1.25em;
+    justify-content: space-between;
 }
+
+
+populr2
+populr3 a faire
+
+
 
 .placement
 {
 	display: flex;
 	justify-content: space-around;
-/*modifier pour le faire en responsive*/
 	align-items: stretch;
 	flex-wrap: wrap;
+	/*modifier pour le faire en responsive*/
 }
 
 
@@ -466,7 +493,7 @@ a
     background-repeat: no-repeat;
     background-size: 40% 100%;
     border: 0.3125em solid rgb(255, 255, 255);
-    padding: 1.25em;
+    /*padding: 1.25em;*/
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
     margin-bottom: 1em;
@@ -483,7 +510,7 @@ a
     background-repeat: no-repeat;
     background-size: 40% 100%;
     border: 0.3125em solid rgb(255, 255, 255);
-    padding: 1.25em;
+    /*padding: 1.25em;*/
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
     margin-bottom: 1em;
@@ -498,7 +525,7 @@ a
     background-repeat: no-repeat;
     background-size: 40% 100%;
     border: 0.3125em solid rgb(255, 255, 255);
-    padding: 1.25em;
+   /*padding: 1.25em;*/
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
     background-color: white;
