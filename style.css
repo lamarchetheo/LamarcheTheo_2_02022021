@@ -291,6 +291,7 @@ a
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	margin-bottom: 2em;
 }
 
 #i_info
@@ -574,6 +575,11 @@ a
 	padding: 0em 0em 0em 6.25em;
 }
 
+#activité
+{
+	margin-top: 2.5em;
+}
+
 
 /*.box_image_2
 {
@@ -593,6 +599,7 @@ footer
 {
 	padding: 1.25em;
 	background-color: #F2F2F2;
+	margin-top: 4em;
 }
 
 
