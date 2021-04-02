@@ -98,8 +98,14 @@ body
 {
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
-	margin: 0em 0em 0em 2em;
+	/*margin: 0em 0em 0em 2em;*/
 }
+
+section
+{
+	margin-left: 1.5em;
+}
+
 
 /*h1
 {
@@ -186,14 +192,6 @@ a:hover /*passage souris*/
 	color: green;
 }
 
-/*section
-{
-	border: 0.05em blue solid;
-	margin: 0.5em;
-	padding: 0.5em;
-	background-color: #F2F2F2;
-}*/
-
 a
 {
 	text-decoration: none;
@@ -229,6 +227,11 @@ a
 .fas
 {
 	color: #0065FC;
+}
+
+.fa-info-circle
+{
+	font-size: 1.5em;
 }
 
 
@@ -588,8 +591,6 @@ a
 
 footer
 {
-	/*border: 0.05em blue solid;*/
-	/*margin: 0.5em;*/
 	padding: 1.25em;
 	background-color: #F2F2F2;
 }
@@ -601,13 +602,19 @@ footer
 
 #flex_footer
 {
-	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: stretch;
 	flex-wrap: wrap;
+	width: 80em;
 }
 
-
+.footer_placement
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;	
+}
 
 /***************************************************/
 /*Responsive*/
@@ -634,12 +641,6 @@ footer
 
 
 /*				NOTES
-
-regler la tailles des cadres 
-
-modifier l'icon info
-
-redui taille activité
 
 finir version desktop
 
