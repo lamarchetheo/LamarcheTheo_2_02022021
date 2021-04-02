@@ -80,9 +80,23 @@ nav li
 /*UNIVERSEL - BODY*/
 /***************************************************/
 
+@font-face 
+{
+	font-family: "Raleway";
+	src: url('font/Raleway-Regular.ttf');
+}
+
+@font-face 
+{
+	font-family: "Raleway";
+	font-weight: bold;
+	src: url('font/Raleway-Bold.ttf');
+}
+
+
 body
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
 	margin: 0em 0em 0em 2em;
 }
@@ -100,11 +114,16 @@ h2
 	margin: 0em;
 }
 
-/*p
+h3
 {
-	font-size: 0.8em;
 	margin: 0.5em;
-}*/
+}
+
+p
+{
+
+	margin: 0.5em;
+}
 
 .navigation
 {
@@ -269,7 +288,6 @@ a
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-left: 1.5625em;
 }
 
 #i_info
@@ -305,8 +323,8 @@ a
 
 .box_image img
 {
-	width: 21.78em;
-	height: 12.5em;
+	width: 20em;
+	height: 9em;
 	padding: 0.05em;	/*marge interieur*/
 	margin-top: 0.5em;	/*marge exterieur vers interieur*/
 	object-fit: cover;
@@ -330,21 +348,6 @@ a
 }
 
 
-@media (max-width: 450px) 
-{
-		.activit
-	{
-		display: flex;
-		flex-direction: row;
-		margin: 0.6em;
-		flex-wrap: wrap;
-		justify-content: space-between;
-
-	}
-
-}
-
-
 .activit
 {
 	display: flex;
@@ -358,7 +361,7 @@ a
 .acti_1
 {
 	width: 23.75em;
-    height: 40em;
+    height: 38em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -375,7 +378,7 @@ a
 {
 	display: flex;
 	flex-direction: column;
-	height: 40em; 
+	height: 38em; 
 	width: 23.75em;
 	justify-content: space-between;
 	flex-wrap: nowrap;
@@ -385,7 +388,7 @@ a
 .acti_2
 {
     width: 23.75em;
-    height: 20em;
+    height: 21em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -398,7 +401,7 @@ a
 .acti_3
 {
     width: 23.75em;
-    height: 18em;
+    height: 13em;
     object-fit: cover;
     border-radius: 0.9375em;
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -413,7 +416,7 @@ a
 .cadre_1
 {
     width: 23.75em;
-    height: 37em;
+    height: 35em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;	
 }
@@ -421,7 +424,7 @@ a
 .cadre_2
 {
 	width: 23.75em;
-    height: 17em;
+    height: 18em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;
 }
@@ -429,7 +432,7 @@ a
 .cadre_3
 {
 	width: 23.75em;
-    height: 15em;
+    height: 10em;
     object-fit: cover;
     border-radius: 0.9375em 0.9375em 0em 0em;
 }
@@ -515,6 +518,7 @@ a
 .populaire_1
 {
     width: 23.75em;
+    height: 10em;
     object-fit: cover;
     background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
     background-repeat: no-repeat;
@@ -523,7 +527,7 @@ a
     /*padding: 1.25em;*/
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
     background-color: white;
 }
 
@@ -531,7 +535,7 @@ a
 .populaire_2
 {
     width: 23.75em;
-
+    height: 10em;
     object-fit: cover;
     background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
     background-repeat: no-repeat;
@@ -540,13 +544,14 @@ a
     /*padding: 1.25em;*/
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
     border-radius: 0.9375em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
     background-color: white;
 }
 
 .populaire_3
 {
     width: 23.75em;
+    height: 10em;
     object-fit: cover;
     background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
     background-repeat: no-repeat;
@@ -604,26 +609,42 @@ footer
 
 
 
+/***************************************************/
+/*Responsive*/
+/***************************************************/
 
 
 
 
+@media (max-width: 450px) 
+{
+		.activit
+	{
+		display: flex;
+		flex-direction: row;
+		margin: 0.6em;
+		flex-wrap: wrap;
+		justify-content: space-between;
 
+	}
+
+}
 
 
 
 
 /*				NOTES
 
+regler la tailles des cadres 
 
+modifier l'icon info
 
-	regler la nav et logo sur la meme ligne
-	regler activite a marseilles allignement
-	margin sur les filtres ect
+redui taille activité
 
-	bouton de recherche navigation retirer hauteur et fixer largeur
-	finir les images du popu
+finir version desktop
 
+terminer la 1er taille de responsive
 
+max 1440px en dessous = responsive
 
 */
