@@ -1,8 +1,7 @@
 /***************************************************/
-/*HEADER*/
+/*Responsive*/
 /***************************************************/
-
-@media (min-width: 1440px)
+@media (max-width: 450px)
 
 {
 
@@ -625,13 +624,13 @@
 		flex-wrap: wrap;	
 	}
 }
-/***************************************************/
-/*Responsive*/
-/***************************************************/
 
 
 
 
+
+
+/*
 @media (max-width: 450px) 
 {
 	.activit
@@ -652,23 +651,4 @@
 	}
 
 }
-
-
-
-
-/*				NOTES
-
-terminer la 1er taille de responsive
-
-max 1440px fixer la taille
-
-reduire les cadre = trop gros en 1440px
-
-
-
-hebergement a marseille padding trop gros
-etoile aligner au texte du haut
-
-pour le footer retirer le width en responsive
-
 */
