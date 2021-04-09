@@ -234,6 +234,12 @@ a
 	font-size: 1.5em;
 }
 
+.fa-chart-line
+{
+	display: flex;
+	color: black;
+	justify-content: flex-end;
+}
 
 .filtres2
 {
@@ -632,7 +638,7 @@ footer
 
 @media (max-width: 450px) 
 {
-		.activit
+	.activit
 	{
 		display: flex;
 		flex-direction: row;
@@ -642,14 +648,18 @@ footer
 
 	}
 
+	.footer
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 }
 
 
 
 
 /*				NOTES
-
-finir version desktop
 
 terminer la 1er taille de responsive
 
