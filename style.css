@@ -110,12 +110,13 @@
 	{
 		font-family: "Raleway", Helvetica, Arial, sans-serif;
 		background-color: #ffffff;
-		/*margin: 0em 0em 0em 2em;*/
+		margin: 0em;
 	}
 
 	section
 	{
-		margin-left: 1.5em;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 
 	h2
@@ -311,8 +312,6 @@
 		justify-content: space-around;
 		align-items: stretch;
 		flex-wrap: nowrap;
-		/*height: 150em;*/
-		/*modifier pour le faire en responsive*/
 	}
 
 	.placement_1
@@ -384,6 +383,45 @@
 
 	}
 
+	.stars_1
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_3
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_5
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_2
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_4
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_6
+	{
+		margin-left: 0.5em; 
+	}
+
+	.star
+	{
+		margin-left: 0.5em; 
+	}
+
+	.stars_9
+	{
+		margin-left: 0.5em; 
+	}
 
 
 
@@ -524,8 +562,8 @@
 
 	.acti_1
 	{
-		width: 23.75em;
-	    height: 38em;
+		width: 20em;
+	    height: 33em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -534,8 +572,8 @@
 
 	.cadre_1
 	{
-	    width: 23.75em;
-	    height: 35em;
+	    width: 20em; /*23.75*/
+	    height: 30em;/*35*/
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;	
 	}
@@ -550,16 +588,16 @@
 	{
 		display: flex;
 		flex-direction: column;
-		height: 38em; 
-		width: 23.75em;
+		width: 20em;
+		height: 33em;
 		justify-content: space-between;
 		flex-wrap: nowrap;
 	}
 
 	.acti_2
 	{
-	    width: 23.75em;
-	    height: 21em;
+	    width: 20em;
+	    height: 18em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -568,16 +606,16 @@
 
 	.cadre_2
 	{
-		width: 23.75em;
-	    height: 18em;
+		width: 20em;
+	    height: 15em;
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;
 	}
 
 	.acti_3
 	{
-	    width: 23.75em;
-	    height: 13em;
+	    width: 20em;
+	    height: 12em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
@@ -586,8 +624,8 @@
 
 	.cadre_3
 	{
-		width: 23.75em;
-	    height: 10em;
+		width: 20em;
+	    height: 9em;
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;
 	}
@@ -615,7 +653,7 @@
 		justify-content: space-between;
 		align-items: stretch;
 		flex-wrap: wrap;
-		width: 80em;
+		width: 70em;
 	}
 
 	.footer_placement
