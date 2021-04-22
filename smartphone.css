@@ -60,7 +60,15 @@
 		padding: 1.25em;
 		display: flex;
 		flex-direction: row;
-		/*justify-content: flex-end;*/
+		list-style-type: none;
+		color: #0065FC;
+	}
+
+	.menu_2
+	{
+		padding: 1.25em;
+		display: flex;
+		flex-direction: row;
 		list-style-type: none;
 	}
 
@@ -122,9 +130,14 @@
 		margin-right: 1em;
 	}
 
-	h2
+	h1
 	{
 		margin: 0em;
+	}
+
+	h2
+	{
+		margin: 0.5em ;
 	}
 
 	h3
@@ -172,6 +185,12 @@
 		margin: 0.02em 0.02em 0.02em 0em; 
 	}
 
+	.titre_header
+	{
+		width: 80%;
+		font-size: 1.28em;
+	}
+
 	#box_search_1
 	{
 		display: flex;
@@ -190,8 +209,10 @@
 	.search
 	{
 		padding: 0.875em;
+		padding-right: 5em; 
 		border: 0.0625em solid #F2F2F2;
-	    text-align: justify;
+	    text-align: right;
+	    font-weight: bold;
 	}
 
 	.bouton_search
@@ -315,6 +336,7 @@
 		justify-content: space-around;
 		align-items: stretch;
 		flex-wrap: wrap;
+		flex-direction: column-reverse;
 	}
 
 	.placement_1
@@ -330,8 +352,8 @@
 	.heberger
 	{
 	    flex: 0.5em;
-	    background-color: #f1f1f1;
-	    padding: 1.25em;
+	    /*background-color: #f1f1f1;*/
+	    padding: 1.25em 0em 0em 0em;
 	    margin-right: 0.1em;
 	    border-radius: 1.25em;	
 	}
@@ -356,8 +378,8 @@
 
 	.box_image img
 	{
-		width: 16em;
-		height: 7em;
+		width: 24em;
+		height: 8em;
 		padding: 0.05em;	/*marge interieur*/
 		object-fit: cover;
 	}
@@ -449,7 +471,7 @@
 	.populr
 	{
 	    background-color: #f1f1f1;
-	    padding: 1.25em;
+	    padding: 0.5em; /*1.25*/
 	    margin-left: 0.1em;
 	    border-radius: 1.25em;
 	    justify-content: space-between;
@@ -565,17 +587,17 @@
 
 	.acti_1
 	{
-		width: 25em;
+		width: 24em;
 	    height: 15em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-	    margin: 0.5em 0em 0.5em 0em;
+	    margin: 0.75em;
 	}
 
 	.cadre_1
 	{
-	    width: 25em; /*23.75*/
+	    width: 24em; /*23.75*/
 	    height: 12em;/*35*/
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;	
@@ -599,17 +621,17 @@
 
 	.acti_2
 	{
-	    width: 25em;
+	    width: 24em;
 	    height: 15em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-	    margin: 0.5em 0em 0.5em 0em;
+	    margin: 0.75em;
 	}
 
 	.cadre_2
 	{
-		width: 25em;
+		width: 24em;
 	    height: 12em;
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;
@@ -617,17 +639,17 @@
 
 	.acti_3
 	{
-	    width: 25em;
+	    width: 24em;
 	    height: 15em;
 	    object-fit: cover;
 	    border-radius: 0.9375em;
 	    box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.5);
-	    margin: 0.5em 0em 0.5em 0em;
+	    margin: 0.75em;
 	}
 
 	.cadre_3
 	{
-		width: 25em;
+		width: 24em;
 	    height: 12em;
 	    object-fit: cover;
 	    border-radius: 0.9375em 0.9375em 0em 0em;

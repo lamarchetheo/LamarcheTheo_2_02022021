@@ -34,17 +34,13 @@
 		flex-grow: 5;
 	}
 
-	/*si menu en nav avec point*/
 
 	header nav ul
 	{
-		/*border-top: silver;*/
-		/*list-style-type: none;*/
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
 		list-style: none;
-		/*padding: 1.25em;*/
 	}
 
 	nav li
@@ -53,6 +49,16 @@
 	}
 
 	.menu
+	{
+		padding: 1.25em;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		list-style-type: none;
+		color: #0065FC;
+	}
+
+	.menu_2
 	{
 		padding: 1.25em;
 		display: flex;
