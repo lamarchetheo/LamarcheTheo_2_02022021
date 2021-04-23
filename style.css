@@ -89,6 +89,10 @@
 		color:  #0065FC;
 	}*/
 
+	ul
+	{
+		margin: 0em;
+	}
 
 
 
@@ -449,6 +453,20 @@
 		height: 100%;
 	}
 
+	.poputitre
+	{
+		display: flex;
+		justify-content: space-between;
+		padding: 0em 0.5em 0.5em 0.5em;
+	}
+
+	.fa-chart-line
+	{
+		font-size: 1.4em;
+		padding-top: 0.35em;
+		padding-right: 0.5em;
+	}
+
 	.populr
 	{
 	    background-color: #f1f1f1;
@@ -713,17 +731,9 @@
 
 /*				NOTES
 
-terminer la 1er taille de responsive
+populaire etoile sur le bas créer une div pour les deplacer en flex
 
-max 1440px fixer la taille
+logo des plus populaire
 
-reduire les cadre = trop gros en 1440px
-
-
-
-hebergement a marseille padding trop gros
-etoile aligner au texte du haut
-
-pour le footer retirer le width en responsive
-
+regler l'espacement de la gauche
 */
