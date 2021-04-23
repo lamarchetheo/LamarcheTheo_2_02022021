@@ -37,8 +37,6 @@
 		flex-grow: 5;
 	}
 
-	/*si menu en nav avec point*/
-
 	header nav ul
 	{
 		/*border-top: silver;*/
@@ -72,11 +70,21 @@
 		list-style-type: none;
 	}
 
+	.menu_3
+	{
+		padding: 1.25em;
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		color: #0065FC;
+		align-self: flex-start;
+	}
+
 	#barre
 	{
 		display: inline-block;
 		line-height: 3.75em;
-		border-top: 0.3125em solid #0065FC;
+		border-bottom: 0.3125em solid #0065FC;
 		background-color: white;
 		color: #0065FC;
 	}
@@ -85,7 +93,15 @@
 	{
 		display: inline-block;
 		line-height: 3.75em;
-		border-top: 0.3125em solid white;
+		border-bottom: 0.3125em solid #f1f1f1;
+		background-color: white;
+	}
+
+	#barre_3
+	{
+		display: inline-block;
+		line-height: 3.75em;
+		border-bottom: 0.3125em solid white;
 		background-color: white;
 	}
 
