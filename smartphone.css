@@ -592,7 +592,10 @@
 	    background-color: white;
 	}
 
-
+	span.tab
+	{
+		display: none;
+	}
 
 
 /***************************************************/
