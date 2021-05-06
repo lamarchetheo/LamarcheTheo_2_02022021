@@ -229,6 +229,11 @@
 		background-color: #0065FC;
 		color: aliceblue;
 	}
+
+	span.loupe
+	{
+		display: none;
+	}
 	
 	/*#filtres nav ul
 	{

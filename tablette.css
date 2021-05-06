@@ -243,6 +243,16 @@ top
 		background-color: #0065FC;
 		color: aliceblue;
 	}
+
+	span.loupe
+	{
+		display: none;
+	}
+
+	.fa-search
+	{
+		color: white;
+	}
 	
 	/*#filtres nav ul
 	{

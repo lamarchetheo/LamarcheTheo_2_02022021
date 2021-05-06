@@ -240,6 +240,11 @@
 		background-color: #0065FC;
 		color: aliceblue;
 	}
+
+	span.bouton_recherche
+	{
+		display: none;
+	}
 	
 	/*#filtres nav ul
 	{
