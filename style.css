@@ -218,6 +218,7 @@
 		padding: 0.875em;
 		border: 0.0625em solid #F2F2F2;
 	    text-align: justify;
+	    font-weight: bold;
 	}
 
 	.bouton_search
@@ -718,43 +719,6 @@
 	}
 
 }
-
-
-
-
-
-
-
-
-
-/***************************************************/
-/*Responsive*/
-/***************************************************/
-
-
-
-
-@media (max-width: 450px) 
-{
-	.activit
-	{
-		display: flex;
-		flex-direction: row;
-		margin: 0.6em;
-		flex-wrap: wrap;
-		justify-content: space-between;
-
-	}
-
-	.footer
-	{
-		display: flex;
-		flex-wrap: wrap;
-		width: 0em;
-	}
-
-}
-
 
 
 

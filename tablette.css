@@ -3,7 +3,7 @@
 /***************************************************/
 
 
-@media (min-width: 735px) and (max-width: 745px)
+@media (min-width: 481px) and (max-width: 1439px)
 
 {
 
@@ -656,7 +656,7 @@ top
 		/*flex-direction: column;
 		width: 20em;
 		height: 33em;*/
-		/*justify-content: space-around;*/
+		justify-content: space-around;
 		flex-wrap: wrap;
 	}
 
