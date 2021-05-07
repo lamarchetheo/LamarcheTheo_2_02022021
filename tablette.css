@@ -249,10 +249,7 @@ top
 		display: none;
 	}
 
-	.fa-search
-	{
-		color: white;
-	}
+
 	
 	/*#filtres nav ul
 	{
@@ -753,10 +750,6 @@ top
 
 
 
-/*display none pour cacher un element regarder pour la recherche
-
-regler la partie haute
-
-faire la version tablettes de 600px
+/*bande blanche sur le coter pour pas de coupure
 
 */

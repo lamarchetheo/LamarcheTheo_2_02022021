@@ -222,6 +222,11 @@
 		background-color: #F2F2F2;	
 	}
 
+	.fa-map-marker-alt
+	{
+		color: #0065FC;
+	}
+
 	.search
 	{
 		padding: 0.875em;
@@ -244,6 +249,16 @@
 	span.bouton_recherche
 	{
 		display: none;
+	}
+
+	.loupe
+	{
+		/*background-color: white;*/
+		/*font-size: 1.5em;*/
+	}
+	.fa-search
+	{
+		color: white;
 	}
 	
 	/*#filtres nav ul
@@ -302,7 +317,27 @@
 	    
 	}
 
-	.fas
+	/*.fas
+	{
+		color: #0065FC;
+	}*/
+
+	.fa-money-bill-wave
+	{
+		color: #0065FC;
+	}
+
+	.fa-child
+	{
+		color: #0065FC;
+	}
+
+	.fa-heart
+	{
+		color: #0065FC;
+	}
+
+	.fa-dog
 	{
 		color: #0065FC;
 	}
@@ -748,10 +783,6 @@
 
 
 
-/*display none pour cacher un element regarder pour la recherche
-
-regler la partie haute
-
-faire la version tablettes de 600px
+/*icon de couleur et separer s'inscrire de l'hebergement pour les alligner
 
 */
