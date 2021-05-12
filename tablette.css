@@ -93,7 +93,7 @@ top
 	{
 		display: inline-block;
 		line-height: 3.75em;
-		border-top: 0.3125em solid #f1f1f1;
+		border-top: 0.3125em solid white;
 		background-color: white;
 	}
 
@@ -750,6 +750,7 @@ top
 
 
 
-/*bande blanche sur le coter pour pas de coupure
+/*
+
 
 */
