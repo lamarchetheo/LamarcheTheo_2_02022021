@@ -113,6 +113,12 @@
 	}
 
 
+	.nav_header_smartphone
+	{
+		display: none;
+	}
+
+
 
 	/***************************************************/
 	/*UNIVERSEL - BODY*/
