@@ -111,11 +111,6 @@
 		background-color: white;
 	}
 
-	/*.inscrire
-	{
-		color:  #0065FC;
-	}*/
-
 	ul
 	{
 		margin: 0em;
@@ -259,16 +254,6 @@
 	{
 		display: none;
 	}
-
-
-	
-	/*#filtres nav ul
-	{
-		list-style-type: none;
-		display: flex;
-		flex-direction: row;
-		
-	}*/
 
 	.filtres2
 	{
@@ -529,16 +514,6 @@
 	    justify-content: space-between;
 	}
 
-	/*.container
-	{
-
-		flex-direction: column;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		padding: 0.01em;
-		align-content: stretch;
-	}*/
-
 	.populr_1
 	{
 	    padding-left: 1.25em;
@@ -709,8 +684,6 @@
 
 
 
-
-
 /***************************************************/
 /*Footer*/
 /***************************************************/
@@ -757,11 +730,3 @@
 	}
 
 }
-
-
-
-
-/*
-
-
-*/

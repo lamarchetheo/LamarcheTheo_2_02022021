@@ -102,11 +102,6 @@
 		background-color: white;
 	}
 
-	/*.inscrire
-	{
-		color:  #0065FC;
-	}*/
-
 	ul
 	{
 		margin: 0em;
@@ -240,14 +235,6 @@
 	{
 		display: none;
 	}
-	
-	/*#filtres nav ul
-	{
-		list-style-type: none;
-		display: flex;
-		flex-direction: row;
-		
-	}*/
 
 	.filtres2
 	{
@@ -420,7 +407,6 @@
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-
 	}
 
 	.stars_1
@@ -471,7 +457,6 @@
 
 
 
-
 	.placement_2
 	{
 		background-color: white;
@@ -505,16 +490,6 @@
 	    border-radius: 1.25em;
 	    justify-content: space-between;
 	}
-
-	/*.container
-	{
-
-		flex-direction: column;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		padding: 0.01em;
-		align-content: stretch;
-	}*/
 
 	.populr_1
 	{
@@ -601,7 +576,6 @@
 /***************************************************/
 /*ACTIVITER*/
 /***************************************************/
-
 
 
 
@@ -724,11 +698,3 @@
 	}
 
 }
-
-
-
-/*				NOTES
-
-w3c validateur
-
-*/
